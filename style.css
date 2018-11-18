@@ -1,0 +1,48 @@
+html{
+	background:url("flatBack.jpg") bottom;
+	background-size: cover;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#keys {
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.key {
+	color: white;
+	background: #2ecc71;
+	padding: 1rem 1.4rem;
+	margin: 1rem;
+	border-radius: 1rem;
+	width: 20rem;
+	text-align: center;
+	box-shadow: .2rem .7rem green;
+	transition: all 0.07s ease;
+}
+
+kbd {
+	display: block;
+	font-size: 4rem;
+}
+
+.sound {
+	letter-spacing: .1rem;
+	font-size: 1.2rem;
+}
+
+.playing {
+	transform: translate(.2rem, .7rem);
+	background: #168E49;
+	color: cyan;
+}
+
