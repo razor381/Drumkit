@@ -27,7 +27,7 @@ body, html {
 	width: 20rem;
 	text-align: center;
 	box-shadow: .2rem .7rem green;
-	transition: all 0.07s ease;
+	transition: all 0.05s ease;
 }
 
 kbd {
@@ -43,6 +43,7 @@ kbd {
 .playing {
 	transform: translate(.2rem, .7rem);
 	background: #168E49;
-	color: cyan;
+	color: yellow;
+	box-shadow: none;
 }
 
